@@ -13,7 +13,7 @@ What is `slimetime`? A 2000s Nickelodeon [show](https://en.wikipedia.org/wiki/Sl
 
 ```python
 # py38 or higher
-python3 -m venv --prompt=slimetime
+python3 -m venv venv --prompt=slimetime
 
 source venv/bin/activate
 pip install -U pip
