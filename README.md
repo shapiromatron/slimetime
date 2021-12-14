@@ -26,4 +26,13 @@ To build:
 make build
 ```
 
+### Extras
+
+To convert the PNG image to an ICO:
+
+```python
+from PIL import Image
+Image.open("green-slime.png").save('green-slime.ico')
+```
+
 <div>green-slime.png icon made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

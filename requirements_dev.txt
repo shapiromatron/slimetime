@@ -1,0 +1,8 @@
+# formatting
+black==21.12b0
+
+# build
+pyinstaller==4.7
+
+# install in developer mode
+-e .
