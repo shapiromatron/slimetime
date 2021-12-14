@@ -1,5 +1,7 @@
 name: build
 
+on: [pull]
+
 jobs:
   build-windows:
     runs-on: windows-2019
