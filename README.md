@@ -17,10 +17,10 @@ python3 -m venv --prompt=slimetime
 
 source venv/bin/activate
 pip install -U pip
-pip install gooey pyinstaller
+pip install -r requirements_dev.txt
 ```
 
-To build:
+To build (mac or windows):
 
 ```bash
 make build
