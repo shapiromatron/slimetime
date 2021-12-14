@@ -12,5 +12,5 @@ goto :eof
 
 :build
 del /f /q .\build .\dist
-pyinstaller slime.py --onefile -F --windowed --icon green-slime.ico
+pyinstaller slime.py --onefile -F --windowed
 goto :eof
