@@ -2,7 +2,7 @@
 black==21.12b0
 
 # build
-pyinstaller==4.7
+pyinstaller==5.13.1
 
 # install in developer mode
 -e .
